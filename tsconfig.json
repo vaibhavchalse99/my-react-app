@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+        "jsx": "react-jsx",
+        "noEmit": false,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
